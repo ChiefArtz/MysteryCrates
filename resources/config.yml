@@ -1,0 +1,26 @@
+#CrateKeys Main Configuration File
+#Copyright (C) 2015 LazerSoft (by EnderBrine101)
+#All Rights Reserved
+
+#What should the item id for the cratekey be? It MUSY be an id and not a name.
+cratekey-item: 278
+
+#Should we broadcast a message to the server when someone opens a crate?
+broadcast-message-on-open: true
+
+#What prizes can you win when opening a crate? These will be picked at random.
+prizes:
+ - "295:0:1"
+ - "276:0:1"
+ - "278:0:1"
+ - "265:0:1"
+ - "391:0:1"
+ - "392:0:1"
+ - "360:0:1"
+ - "263:0:1"
+ - "6:0:1"
+ - "297:0:1"
+ - "352:0:1"
+ - "35:0:1"
+
+

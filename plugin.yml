@@ -1,0 +1,29 @@
+name: MysteryCrates
+main: crates\Main
+version: 1.0
+api: [1.12.0]
+load: STARTUP
+author: EnderBrine101
+description: Adds crates and cratekeys to your server which give random rewards!
+commands:
+   cratekey:
+      description: Main command for this plugin
+permissions:
+   mysterycrates.*:
+      default: op
+      description: Access to ALL MysteryCrate Features
+      children:
+         mysterycrates.crates.open:
+            default: true
+            description: Allow the player to open a MysteryCrate
+         mysterycrates.command.cratekey.giveall:
+            default: op
+            description: Allow access to /cratekey giveall
+         mysterycrates.command.cratekey.give:
+            default: op
+            description: Allow the user to use /cratekey give <player>
+      
+   
+     
+  
+
